@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Office Tops</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="../"><img src="../images/logo.png" alt="logo"></a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../sillas">Sillas</a>
+                    <a href="../escritorios/">Escritorios</a>
+                    <a href="../accesorios">Accesorios</a>
+                    <a href="./" class="active">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Contacto</h1>
+        <div>
+            Espacio para Banner
+        </div>
+        <p>Comúniquese con nosotros mediante nuestras redes sociales o déjenos un mensaje.</p>
+        <form>
+            <label for="input-name">Nombres:</label><br>
+            <input type="text" id="input-name" name="name" required>
+            <br>
+            <label for="input-last-name">Apellidos:</label><br>
+            <input type="text" id="input-last-name" name="lastName" required>
+            <br>
+            <label for="input-mail">Correo:</label><br>
+            <input type="mail" id="input-mail" name="mail" required>
+            <br>
+            <label for="input-phone">Celular:</label><br>
+            <input type="number" id="input-phone" name="phone" required>
+            <br>
+
+            <label for="input-cat">Producto de interés:</label><br>
+            <select name="category" id="input-cat">
+                <option value="chair">Sillas</option>
+                <option value="desktop">Escritorios</option>
+                <option value="accesory">Accesorios</option>
+                <option value="other">Otros</option>
+            </select>
+            <br>
+
+            <label for="input-message">Mensaje:</label><br>
+            <textarea name="message" id="input-message" cols="30" rows="10"></textarea>
+            <br>
+
+            <input type="checkbox" id="input-terms" name="terms">
+            <label for="input-terms">Acepto los enviar mis datos personales para fines comerciales</label>
+            <br>
+
+            <input type="reset" value="Limpiar">
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <footer>
+        <p>Home Office Store of Perú. Todos los derechos reservados.</p>
+        <p>Perú - 2021</p>
+    </footer>
+</body>
+
+</html>
